@@ -1,0 +1,20 @@
+{
+    "name": "descent/facades",
+    "description": "Descent Framework Facades",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Kaschubowski",
+            "email": "nihylum@gmail.com"
+        }
+    ],
+    "require": {
+        "descent/contracts": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Descent\\Facades\\": "./src"
+        }
+    }
+}
